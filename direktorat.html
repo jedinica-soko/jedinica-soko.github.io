@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title> Јединица Соко - директор </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="#">
+        <style>
+            body {
+                background-image: url("D:/4. Baza podataka/6. Server/HTML/img/home-page.jpg");
+                background-repeat: no-repeat;
+                background-size: cover; }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0; }
+
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+                background-color: #24252a; }
+
+            .logo {
+                cursor: pointer;
+                width: 173px;
+                height: 120px;
+                border: 1px solid orange;
+                border-radius: 30px;
+                padding: 3px;
+                margin: 0;
+            }
+
+            .links a, .cta{
+                font-family: sans-serif;
+                font-size: 25px;
+                font-weight: 600;
+                color: orange;
+                text-decoration: none;
+                border: 1px solid orange;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 15px; }
+
+            .links {
+                list-style: none;
+                display: flex; }
+
+            .links li {
+                padding: 0px 20px; }
+
+            .links li a {
+                transition: color 0.3s ease 0s;}
+
+            .links li a:hover {
+                color: #0088a9; }
+
+            .cta {
+                padding: 9px 25px;
+                background-color: rgba(0, 136, 169, 1);
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: background-color 0.3s ease 0s; }
+
+            .cta:hover {
+                background-color: rgba(0, 136, 169, 0.8); }
+
+            #welcome {
+                font-size: 30px;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold; }
+
+            .zap {
+                margin-top: 50px;
+                margin-left: 50px;
+                width: 450px;
+                border: 2px solid orange;
+                border-radius: 50px;
+                float: left; }
+
+            .bio {
+                margin-left: 600px;
+                margin-right: 100px;
+                color: orange;
+                font-family: sans-serif;
+                font-size: 25px;
+                text-align: justify; 
+                border: 1px solid yellow;
+                border-radius: 10px;
+                padding: 10px; }
+
+            #welcome {
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center; }
+
+            .bio-button {
+                margin-left: 600px;
+                margin-right: 100px;
+                color: orange;
+                font-family: sans-serif;
+                font-size: 25px;
+                border: 1px solid orange;
+                border-radius: 10px;
+                padding: 10px;
+                width: 150px;
+                text-align: center;
+                cursor: pointer; }    
+
+        </style>
+    </head>
+	<body>
+        <header>
+            <a href="#"> <img class="logo" src="#"> </a>
+            <nav>
+                <ul class="links">
+                    <li> <a href="#"> Почетна </a> </li>
+                    <li> <a href="#"> / </a> </li>
+                    <li> <a href="#"> Месечни план </a> </li>
+                    <li> <a href="#"> Директорат </a> </li>
+                </ul>
+            </nav>
+            <a class="cta" href="#"> Контакт </a>
+        </header>
+        <br> <br>
+
+    	<div id="welcome"> директор, Данило Тадић </div> 
+		
+        <div class="bio-content">
+			<img class="zap" src="#"> 
+            <br> <br> <br> 
+            <p class="bio"> <b>Данило Тадић </b> је рођен у марту 2008. године у Београду. Завршио је основну школу "Иво Андрић" на Миљаковцу, постигавши одличан успех у сваком разреду. Наставак школовања је уследио уписом у ЕТШ "Никола Тесла". <br> <br>Безбедношћу становништва је почео да се бави 2014. године као хобијем и вођен патриотским размишљањем.  <br> <br> Поред обавештајног рада за јединицу води и финансије и привређује истим. Јединица од свог оснивања представља стабилну и добро опремљену формацију захваљујући вођству. <br> <br> У слободно време поред обавеза око јединице и школовања време проводи дружећи се и бавећи се спортом. Тренирао је фудбал од седме године живота. <br> <br> Све што данас представља <b> Јединицу Соко </b> је он изградио и све заслуге се морају њему доделити. </p>
+            <br> <br> <br> <br> <br>
+            <button class="bio-button" onclick="location.href='mailto:danilo.tadic08@gmail.com'"> E-mail </button> 
+		</div>
+        
+    </body>
+</html>
