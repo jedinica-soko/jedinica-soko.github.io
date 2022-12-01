@@ -1,0 +1,196 @@
+body{ 
+    background-color: rgb(0, 0, 0);
+} /* body */
+
+ul{
+    padding: 0;
+}
+
+.navbar {
+    list-style-type: none ;
+    background-color: #F1512D;
+    text-align: center;
+    border-radius: 5px;
+    height: 60px;
+} /* menu */
+
+#logo{
+    max-width: 90%;
+    max-height: 90%;
+    float: left;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#head{
+    text-align: left; 
+    color: white; 
+    font-family: sans-serif; 
+    position: absolute; 
+    margin-left: 80px; 
+    margin-top: 20px;
+    cursor: pointer;
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.slika{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.navbar li { 
+    display: inline-block; 
+} /* sluzi da se li poredja po redu */
+
+.dropbtn, .menu a {
+    background-color: #F1512D;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; 
+}
+            
+.drop {
+    font-family: sans-serif;
+    position: relative; 
+}
+            
+.drop-menu {
+    display: none;
+    position: absolute;
+    background-color: #F1512D;
+    text-align: center;
+    padding: 20px;
+    min-width: 70%;
+    z-index: 1;
+    box-shadow: 4px 8px 8px 8px orange;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+            
+.drop:hover .drop-menu {
+    display: block; 
+}
+
+.drop:hover .drop-menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 16px; 
+}
+            
+.drop-menu a:hover {
+    background-color: white;
+    border-radius: 10px; 
+}
+            
+.menu a {
+    text-decoration: none; 
+}
+   
+.menu a:hover, .drop:hover .dropbtn {
+    background-color: white;
+    color: orange; 
+}
+
+.div-menu{
+    margin-left: 15px; 
+    width: 48%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.c-form{
+    display: inline-block;
+    width: 45%;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.input-info{
+    margin-left: 30px;
+    margin-top: 25px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: black;
+    width: 90%;
+    height: 30px;
+    color: orange;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.input-text{
+    margin-left: 30px;
+    margin-top: 25px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: black;
+    width: 90%;
+    height: 300px;
+    color: orange;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:hover {
+  border: 1px solid orange;
+  transition: 0.7s;
+}
+
+.contact-btn{
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: red;
+    color: orange;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-btn:hover{
+    background-color: orange;
+    color: red;
+    transition: 0.7s;
+}
+
+.header-div{
+    background-color: #F1512D;
+    height: 100px;
+    border: 1px dotted red;
+    border-radius: 5px;
+}
+
+.logos{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.input-info:focus, .input-text:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 700px) {
+    #head{
+        display: none;
+    }
+}
